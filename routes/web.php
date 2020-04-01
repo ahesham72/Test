@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('authors/create', 'AuthorController@create');
+Route::get('authors/store', 'AuthorController@store');
